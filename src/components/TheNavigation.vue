@@ -1,6 +1,6 @@
 <template>
     <nav class="d-flex justify-content-around align-items-center">
-    <h3>Magic-shop</h3>
+    <h2>Magic-shop</h2>
     <router-link to="/">Home</router-link>
     <router-link to="/about">About Us</router-link>
     <router-link to="/assortment">Assortment</router-link>
@@ -14,7 +14,7 @@ nav {
     height: 10vh;
 }
 
-nav h3 {
+nav h2 {
     color: #4df809;
 }
 

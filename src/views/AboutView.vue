@@ -1,5 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <div class="d-flex flex-column align-items-start justify-content-start">
+      <h1>About Us</h1>
+      <p>We are Magic-shop, place where every wizard, adventurer or warlock can buy amazing products for their preferences. if we don't have something, don't worry, we'll get it in seconds thanks to the teleportation.</p>
+      <p>Note: This amazing background was generated thanks to the AI.</p>
+    </div>
   </div>
 </template>

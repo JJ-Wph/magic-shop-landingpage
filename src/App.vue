@@ -1,7 +1,10 @@
 <template>
   <div id="app">
     <TheNavigation/>
-    <router-view/>
+    <transition name="slide" mode="out-in" appear>
+      <router-view/>
+    </transition>
+    
   </div>
 </template>
 
@@ -37,5 +40,21 @@ h1 {
 
 h2{
   font-size: 3rem;
+}
+
+.slide-enter-active{
+  transition: .5s;
+}
+
+.slide-leave-active{
+  transition: .5s;
+}
+
+.slide-enter, .slide-leave-to{
+  opacity: 0;
+}
+
+.slide-leave, .slide-enter-to{
+  opacity: 1;
 }
 </style>

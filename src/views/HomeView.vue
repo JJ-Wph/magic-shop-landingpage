@@ -10,24 +10,15 @@
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
   name: 'HomeView',
-  components: {
-    
-  }
 }
 </script>
 
-<style scoped>
-  .home {
-    display: flex;
-    flex-direction: row;
-  }
-
+<style>
+  .about div,
   .home div {
-    padding: 10rem 0rem 0rem 4rem;
+    padding: 10rem 0rem 0rem 8rem;
     width: 50vw;
     height: 50vh;
     text-align: left;
