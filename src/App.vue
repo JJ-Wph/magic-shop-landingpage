@@ -1,32 +1,41 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <TheNavigation/>
     <router-view/>
   </div>
 </template>
 
+<script>
+  import TheNavigation from './components/TheNavigation.vue'
+
+  export default {
+    components:{
+      TheNavigation
+    }
+  }
+</script>
+
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'VT323', monospace;
+  font-size: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #0b1308;
+  background-image: url('@/assets/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
 }
 
-nav {
-  padding: 30px;
+h1 {
+  font-size: 5rem;
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
+h2{
+  font-size: 3rem;
 }
 </style>

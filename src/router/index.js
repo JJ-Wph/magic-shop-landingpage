@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import AssortmentView from '../views/AssortmentView.vue'
+import JobView from '../views/JobView.vue'
+import ContactView from '../views/ContactView.vue'
 
 Vue.use(VueRouter)
 
@@ -19,6 +22,21 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
     }
+  },
+  {
+    path: '/assortment',
+    name: 'assortment',
+    component: AssortmentView
+  },
+  {
+    path: '/job',
+    name: 'job',
+    component: JobView
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: ContactView
   }
 ]
 
