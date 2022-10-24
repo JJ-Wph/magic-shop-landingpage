@@ -15,11 +15,22 @@ export default {
 </script>
 
 <style>
-  .about div,
-  .home div {
-    padding: 10rem 0rem 0rem 8rem;
-    width: 50vw;
-    height: 50vh;
-    text-align: left;
+  .about,
+  .home,
+  .shop {
+    width: 100vw;
+    height: 90vh;
+    padding: 8rem;
   }
+
+  .shop {
+    padding: 1rem;
+  }
+
+  .about div,
+  .home h1 {
+    width: 50vw;
+    text-align: left;    
+  }
+
 </style>

@@ -3,10 +3,10 @@
     <h2>Magic-shop</h2>
     <router-link to="/">Home</router-link>
     <router-link to="/about">About Us</router-link>
+    <router-link to="/shop">Shop</router-link>
     <router-link to="/job">Job</router-link>
     <router-link to="/contact">Contact</router-link>
-    <router-link to="/shop">Shop</router-link>
-    <button class="btn btn-primary">Cart</button>
+    <button class="btn btn-primary px-4">Cart</button>
     </nav>
 </template>
 

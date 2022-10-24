@@ -34,10 +34,12 @@
   background-size: 100% 100%;
   width: 100%;
   height: 100vh;
+  margin: 0;
 }
 
 h1 {
   font-size: 5rem;
+  margin: 0;
 }
 
 h2{
@@ -57,10 +59,6 @@ p{
   margin: 0;
 }
 
-.blur {
-  backdrop-filter: blur(10px);
-}
-
 .slide-enter-active{
   transition: .5s;
 }
@@ -75,5 +73,9 @@ p{
 
 .slide-leave, .slide-enter-to{
   opacity: 1;
+}
+
+.blur {
+  backdrop-filter: blur(5px);
 }
 </style>

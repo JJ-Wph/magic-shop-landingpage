@@ -1,14 +1,14 @@
 <template>
-  <div class="shop d-flex flex-wrap align-items-center justify-content-center">
-    <div class="d-flex m-3" v-for="item in items" :key=item.name>
-      <div class="d-flex flex-column align-items-center justify-content-between pixel-borders--2 blur p-2" style="width: 30rem; height: 20rem;">
+  <div class="shop d-flex flex-wrap justify-content-center align-items-center">
+    <div v-for="item in items" :key=item.name>
+      <div class="d-flex m-1 flex-column align-items-center justify-content-between pixel-borders--2 blur p-2" style="width: 30rem; height: 15rem;">
         <h4><strong>{{item.name}}</strong></h4>
         <img :src=item.img :alt=item.name width='60px'>
         <p>Price: {{item.price}}</p>
         <div class="d-flex align-items-center justify-content-center p-2">
-          <button class="btn btn-danger m-2">-</button>
+          <button @click="item.count--" :disabled="item.count === 0" class="btn btn-danger m-2">-</button>
           <h4 class="align-items-center">{{item.count}}</h4>
-          <button class="btn btn-success m-2">+</button>
+          <button @click="item.count++" class="btn btn-success m-2">+</button>
         </div>
       </div>
     </div>
@@ -31,8 +31,8 @@ export default {
         {name: 'Ice Staff', img: require('@/assets/ice.png'),  price: 19.95, count:0},
       ],
     }
-}
-};
+  },
 
+};
 
 </script>
