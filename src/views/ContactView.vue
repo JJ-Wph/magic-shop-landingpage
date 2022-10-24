@@ -1,6 +1,10 @@
 <template>
   <div class="contact">
-    <p>address and contact view</p>
+    <div class="d-flex flex-column align-items-center justify-content-around">
+      <h4><strong>Address</strong></h4>
+      <p>Next to the Inn of the Prancing Pony</p>
+      <p>Bree, Shire</p>
+    </div>
   </div>
 </template>
 

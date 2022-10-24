@@ -3,9 +3,8 @@
     <div class="d-flex flex-column align-items-start justify-content-start">
       <h1>There is some magic stuff in this shop, and it's worth buying.</h1>
       <br>
-      <h2>Magic-shop official website</h2>
+      <h3>Magic-shop official website</h3>
     </div>
-    
   </div>
 </template>
 

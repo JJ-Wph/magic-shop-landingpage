@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import AssortmentView from '../views/AssortmentView.vue'
+import ShopView from '../views/ShopView.vue'
 import JobView from '../views/JobView.vue'
 import ContactView from '../views/ContactView.vue'
 
@@ -24,9 +24,9 @@ const routes = [
     }
   },
   {
-    path: '/assortment',
-    name: 'assortment',
-    component: AssortmentView
+    path: '/shop',
+    name: 'shop',
+    component: ShopView
   },
   {
     path: '/job',

@@ -3,9 +3,10 @@
     <h2>Magic-shop</h2>
     <router-link to="/">Home</router-link>
     <router-link to="/about">About Us</router-link>
-    <router-link to="/assortment">Assortment</router-link>
     <router-link to="/job">Job</router-link>
     <router-link to="/contact">Contact</router-link>
+    <router-link to="/shop">Shop</router-link>
+    <button class="btn btn-primary">Cart</button>
     </nav>
 </template>
 
@@ -19,11 +20,11 @@ nav h2 {
 }
 
 nav a {
-    color: #0e3052;
+    color: #0b1308;
 }
 
 nav a:hover {
-    font-style: none;
+    text-decoration: none;
 }
 
 nav a.router-link-exact-active {

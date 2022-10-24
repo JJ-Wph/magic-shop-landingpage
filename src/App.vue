@@ -19,6 +19,8 @@
 </script>
 
 <style>
+@import "../public/pixel-borders.css";
+
 #app {
   font-family: 'VT323', monospace;
   font-size: 30px;
@@ -39,7 +41,24 @@ h1 {
 }
 
 h2{
+  font-size: 4rem;
+}
+
+h3{
   font-size: 3rem;
+}
+
+h4{
+  font-size: 2.5rem;
+}
+
+p{
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.blur {
+  backdrop-filter: blur(10px);
 }
 
 .slide-enter-active{
