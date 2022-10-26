@@ -20,8 +20,8 @@ export default new Vuex.Store({
     getAddedItems: state => {
       return state.items.filter(v => v.count > 0);
     },
-    
   },
+  
   mutations: {
     addToCart: state => {
       state.cartCount++;
