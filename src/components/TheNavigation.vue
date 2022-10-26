@@ -6,25 +6,20 @@
         <router-link to="/shop">Shop</router-link>
         <router-link to="/job">Job</router-link>
         <router-link to="/contact">Contact</router-link>
-
-        <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Cart
-            <span class="badge badge-pill badge-danger" v-show="cartCount>0">
-                {{cartCount}}
-            </span>
-        </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <p>534trg</p>
-  </div>
-
+        <TheCart/>
     </nav>
 </template>
 
 <script>
-import {mapState} from 'vuex';
-export default {
-    computed: mapState(['cartCount']),
-};
+  import TheCart from '@/components/TheCart.vue'
+  export default {
+    components:{
+      TheCart
+    },
+    computed: {
+        items() {return this.$store.getters['getAddedItems']}
+    }
+  }
 </script>
 
 <style>

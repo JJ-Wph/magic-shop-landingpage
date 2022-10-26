@@ -24,16 +24,12 @@ export default {
     ...mapState(['items']),
     cartCount(){
       return this.$store.state.cartCount;
-    },
-    cart(){
-      return this.$store.state.cart;
     }
   },
 
   methods: {
     plus() {this.$store.commit('addToCart')},
     minus() {this.$store.commit('removeFromCart')}
-
   },
 
 

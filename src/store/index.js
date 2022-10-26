@@ -6,7 +6,6 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     cartCount: 0,
-    cart: [],
     items: [
       {name: 'Sharp Sword', img: require('@/assets/sword.png'), price: 13.95, count:0},
       {name: 'Fire Ring', img: require('@/assets/ring.png'), price: 16.75, count:0},
@@ -18,17 +17,18 @@ export default new Vuex.Store({
 
   },
   getters: {
+    getAddedItems: state => {
+      return state.items.filter(v => v.count > 0);
+    },
+    
   },
   mutations: {
     addToCart: state => {
       state.cartCount++;
     },
+
     removeFromCart: state => {
       state.cartCount--;
     }
   },
-  actions: {
-  },
-  modules: {
-  }
 })
