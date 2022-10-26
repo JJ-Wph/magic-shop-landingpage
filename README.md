@@ -1,5 +1,8 @@
 # magic-shop-landingpage
 
+## Link to site
+(https://magic-shop-site.netlify.app)
+
 ## Project setup
 ```
 npm install
