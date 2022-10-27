@@ -39,9 +39,8 @@ export default {
 </script>
 <style scoped>
 @media (max-width: 768px){
-    /* button {
-        width: 6vw;
-        height: 6vh;
-    } */
+    button {
+        padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    }
 }
 </style>

@@ -52,6 +52,7 @@ h3{
 
 h4{
   font-size: 2.5vw;
+  margin: 0;
 }
 
 p{

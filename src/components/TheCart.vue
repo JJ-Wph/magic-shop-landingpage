@@ -47,9 +47,16 @@ button {
     height: 6vh;
 }
 
+.dropdown-menu {
+    background: transparent;
+    backdrop-filter: blur(8px);
+    color: #4df809;
+}
+
 p {
     font-size: 1.6vw;
 }
+
 
 @media (max-width: 1280px){
     button {
