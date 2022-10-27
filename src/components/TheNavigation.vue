@@ -33,7 +33,7 @@ nav h2 {
 }
 
 nav a {
-    font-size: 3vw;
+    font-size: 2vw;
     color: #0b1308;
 }
 

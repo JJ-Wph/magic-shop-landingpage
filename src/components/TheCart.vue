@@ -1,10 +1,8 @@
 <template>
-        <div class="d-flex justift-content-around">
-        <button class="btn btn-lg btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Cart
-            <span class="badge badge-pill badge-danger" v-show="cartCount > 0">
-                {{cartCount}}
-            </span>
+        <div class="d-flex justify-content-around align-items-center">
+        <button class=" d-flex justify-content-around align-items-center btn btn-lg btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <p>Cart</p> 
+            <p><span class="badge badge-pill badge-danger" v-show="cartCount > 0">{{cartCount}}</span></p>  
         </button>
         <div class="dropdown-menu pixel-borders--2 w-25" aria-labelledby="dropdownMenuButton">
             <div class="d-flex justify-content-around">
@@ -45,15 +43,22 @@ export default {
 
 <style scoped>
 button {
-    width: 13vw;
-    font-size: 2vw;
+    width: 8vw;
+    height: 6vh;
 }
 
 p {
-    font-size: 2vw;
+    font-size: 1.6vw;
 }
 
-@media (max-width: 768px){
-    
+@media (max-width: 1280px){
+    button {
+        width: 14vw;
+        height: 4vh;
+    }
+
+    p {
+        font-size: 2.2vw;
+    }
 }
 </style>
