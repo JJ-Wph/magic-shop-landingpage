@@ -1,9 +1,9 @@
 <template>
   <div class="shop d-flex flex-wrap justify-content-center align-items-center">
     <div v-for="item in items" :key=item.name>
-      <div class="d-flex m-1 flex-column align-items-center justify-content-between pixel-borders--2 blur p-2" style="width: 30rem; height: 15rem;">
+      <div class="d-flex m-1 flex-column align-items-center justify-content-between pixel-borders--2 blur p-2" style="width: 25vw; height: 30vh;">
         <h4><strong>{{item.name}}</strong></h4>
-        <img :src=item.img :alt=item.name width='60px'>
+        <img :src=item.img :alt=item.name width='60vw'>
         <p>Price: {{item.price}}</p>
         <div class="d-flex align-items-center justify-content-center p-2">
           <button @click="item.count--; minus()" :disabled="item.count === 0" class="btn btn-danger m-2">-</button>
@@ -16,6 +16,7 @@
 </template>
 
 <script>
+
 
 import {mapState} from 'vuex';
 export default {
@@ -36,3 +37,11 @@ export default {
 };
 
 </script>
+<style scoped>
+@media (max-width: 768px){
+    /* button {
+        width: 6vw;
+        height: 6vh;
+    } */
+}
+</style>

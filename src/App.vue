@@ -28,33 +28,34 @@
   text-align: center;
   color: #0b1308;
   background-image: url('@/assets/background.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 100vh;
   margin: 0;
+
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 5vw;
   margin: 0;
 }
 
 h2{
-  font-size: 4rem;
+  font-size: 4vw;
 }
 
 h3{
-  font-size: 3rem;
+  font-size: 3vw;
 }
 
 h4{
-  font-size: 2.5rem;
+  font-size: 2.5vw;
 }
 
 p{
-  font-size: 1.5rem;
+  font-size: 2.5vw;
   margin: 0;
 }
 

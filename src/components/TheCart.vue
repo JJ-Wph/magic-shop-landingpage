@@ -1,12 +1,12 @@
 <template>
-    <div>
+        <div class="d-flex justift-content-around">
         <button class="btn btn-lg btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Cart
             <span class="badge badge-pill badge-danger" v-show="cartCount > 0">
                 {{cartCount}}
             </span>
         </button>
-        <div class="dropdown-menu dropdown-menu-center w-25" aria-labelledby="dropdownMenuButton">
+        <div class="dropdown-menu pixel-borders--2 w-25" aria-labelledby="dropdownMenuButton">
             <div class="d-flex justify-content-around">
                 <p class="mr-auto p-2">Name</p>
                 <p class="p-2">Count</p>
@@ -45,10 +45,15 @@ export default {
 
 <style scoped>
 button {
-    width: 8rem;
+    width: 13vw;
+    font-size: 2vw;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 2vw;
+}
+
+@media (max-width: 768px){
+    
 }
 </style>

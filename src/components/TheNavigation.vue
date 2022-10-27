@@ -29,13 +29,11 @@ nav {
 
 nav h2 {
     color: #4df809;
-}
 
-nav p {
-    font-size: 1.2rem
 }
 
 nav a {
+    font-size: 3vw;
     color: #0b1308;
 }
 

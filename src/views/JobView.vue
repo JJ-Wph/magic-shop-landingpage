@@ -3,7 +3,7 @@
     <h2>We are hiring!</h2>
     <br>
     <div class="d-flex flex-row justify-content-around">
-      <div class="pixel-borders--2 blur" style="width: 26rem;">
+      <div class="pixel-borders--2 blur" style="width: 40%; max-height: 50%;">
         <div class="card-body">
           <h3 class="pixel-box--success">Junior Potion Developer</h3>
           <h4 class="card-subtitle mb-3">Requirements:</h4>
@@ -15,7 +15,7 @@
           <button class="pixel-box--success">Send CV</button>
         </div>
       </div>
-      <div class="pixel-borders--2 blur" style="width: 26rem;">
+      <div class="pixel-borders--2 blur" style="width: 40%; max-height: 50%;">
         <div class="card-body">
           <h3 class="pixel-box--success">Senior Weapon Crafter</h3>
           <h4 class="card-subtitle mb-3">Requirements:</h4>
@@ -37,9 +37,3 @@ export default {
   name: 'JobView',
 }
 </script>
-
-<style>
- .card{
-  background-color: #4df80956;
- }
-</style>
