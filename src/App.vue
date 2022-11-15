@@ -35,22 +35,21 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 5vw;
   margin: 0;
 }
 
 h2{
-  font-size: 2rem;
+  font-size: 3.5vw;
   margin: 0;
 }
 
 h3{
-  font-size: 1rem;
   margin: 0;
 }
 
 p{
-  font-size: 1.2rem;
+  font-size: 2.5vw;
   margin: 0;
 }
 
