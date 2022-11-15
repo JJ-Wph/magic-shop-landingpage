@@ -2,7 +2,7 @@
     <nav class="d-flex justify-content-around align-items-center">
         <h2>Magic-shop</h2>
         <router-link to="/">Home</router-link>
-        <router-link to="/about">About Us</router-link>
+        <router-link to="/about">About</router-link>
         <router-link to="/shop">Shop</router-link>
         <router-link to="/job">Job</router-link>
         <router-link to="/contact">Contact</router-link>
@@ -28,12 +28,12 @@ nav {
 }
 
 nav h2 {
+    font-size: 2.8vh;
     color: #4df809;
-
 }
 
 nav a {
-    font-size: 2vw;
+    font-size: 2.6vh;
     color: #0b1308;
 }
 

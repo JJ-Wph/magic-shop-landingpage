@@ -3,7 +3,7 @@
     <div class="d-flex flex-column align-items-start justify-content-start">
       <h1>There is some magic stuff in this shop, and it's worth buying.</h1>
       <br>
-      <h3>Magic-shop official website</h3>
+      <h2>Magic-shop official website</h2>
     </div>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
   .shop {
     width: 100vw;
     height: 90vh;
-    padding: 8rem;
+    padding: 4rem;
   }
 
   .shop {

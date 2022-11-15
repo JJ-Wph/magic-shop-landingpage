@@ -4,7 +4,6 @@
     <transition name="slide" mode="out-in" appear>
       <router-view/>
     </transition>
-    
   </div>
 </template>
 
@@ -22,7 +21,6 @@
 
 #app {
   font-family: 'VT323', monospace;
-  font-size: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -34,29 +32,25 @@
   width: 100%;
   height: 100vh;
   margin: 0;
-
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 3rem;
   margin: 0;
 }
 
 h2{
-  font-size: 4vw;
+  font-size: 2rem;
+  margin: 0;
 }
 
 h3{
-  font-size: 3vw;
-}
-
-h4{
-  font-size: 2.5vw;
+  font-size: 1rem;
   margin: 0;
 }
 
 p{
-  font-size: 2.5vw;
+  font-size: 1.2rem;
   margin: 0;
 }
 

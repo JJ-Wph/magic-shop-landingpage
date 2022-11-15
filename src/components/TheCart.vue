@@ -1,5 +1,5 @@
 <template>
-        <div class="d-flex justify-content-around align-items-center">
+    <div class="d-flex justify-content-around align-items-center">
         <button class=" d-flex justify-content-around align-items-center btn btn-lg btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <p>Cart</p> 
             <p><span class="badge badge-pill badge-danger" v-show="cartCount > 0">{{cartCount}}</span></p>  
@@ -46,7 +46,6 @@ button {
     width: 8vw;
     height: 6vh;
 }
-
 .dropdown-menu {
     background: transparent;
     backdrop-filter: blur(8px);
@@ -56,7 +55,6 @@ button {
 p {
     font-size: 1.6vw;
 }
-
 
 @media (max-width: 1280px){
     button {
