@@ -14,6 +14,7 @@ Background of this site is made by [A.I. Art Generator](https://creator.nightcaf
 * Vue-Router
 * Vue CLI
 * NPM
+* Pixel-borders
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/71273681/201907397-d8ccf547-799e-4448-b5d2-ee281c05c228.png)
